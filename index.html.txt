@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot AI Adicom: Tingkatkan Interaktivitas Website Anda</title>
+    <style>
+        /* Gaya Dasar dan Reset Minimal */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff; /* Warna dasar sangat terang */
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px; /* Rigid constraint */
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        header {
+            background-color: #007bff; /* Biru Cerah - Header */
+            color: white;
+            padding: 20px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.8em;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .hero {
+            background-color: #4ac6ff; /* Biru Cerah yang lebih menonjol */
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .content-section {
+            padding: 40px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Responsif dengan grid */
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: #00bcd4; /* Biru Cyan, menonjol untuk CTA */
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        footer {
+            background-color: #004c8f; /* Biru gelap untuk footer */
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 0.9em;
+        }
+
+        /* Kelas untuk Porsi Konten - Membantu visualisasi */
+        .educational { border-left: 5px solid #00bcd4; } /* 30% */
+        .inspirational { border-left: 5px solid #4caf50; } /* 15% */
+        .entertaining { border-left: 5px solid #ff9800; } /* 25% */
+        .promotional { border-left: 5px solid #f44336; } /* 20% */
+        .community { border-left: 5px solid #9c27b0; } /* 10% */
+
+        /* Media Query Dasar untuk Responsif */
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.5em; }
+            nav a { margin-left: 10px; display: block; text-align: center; padding: 5px 0; }
+            .hero { padding: 40px 0; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <h1><a href="/" style="color: white; text-decoration: none;">ChatBot AI Adicom</a></h1>
+                <nav>
+                    <a href="#fitur">Fitur</a>
+                    <a href="#konten">Konten</a>
+                    <a href="#harga">Harga</a>
+                    <a href="#kontak" class="cta-button" style="margin-left: 30px;">Coba Sekarang!</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="container">
+            <h2>Tingkatkan **Interaktivitas Website** Anda dengan Chatbot AI Cerdas!</h2>
+            <p>Jelaskan produk/konten Anda 24/7, layani calon pembeli dengan responsif dan informatif.</p>
+            <a href="#harga" class="cta-button" style="background-color: #ffc107; color: #333;">Lihat Penawaran Spesial 🎉</a>
+        </div>
+    </div>
+
+    <section id="konten" class="content-section">
+        <div class="container">
+            <h3 style="text-align: center; color: #007bff;">Konten yang Menarik & Bermanfaat (80%)</h3>
+            <p style="text-align: center; max-width: 700px; margin: 10px auto 30px;">Kami percaya dengan memberikan nilai (Value) sebelum menjual. Berikut adalah jenis konten interaktif yang bisa disajikan Chatbot kami.</p>
+
+            <div class="grid-container">
+
+                <div class="card educational">
+                    <h4 style="color: #00bcd4;">📚 Tutorial Step-by-Step</h4>
+                    <p>**Mendidik:** Chatbot dapat memandu pengunjung Anda melalui proses penggunaan produk, fitur, atau konten website secara langkah demi langkah. *Contoh: "Cara setting domain dengan benar."*</p>
+                    <small>Tips & Industry Insights (30% dari Total)</small>
+                </div>
+
+                <div class="card entertaining">
+                    <h4 style="color: #ff9800;">😂 Memes Relatable & Fun Facts</h4>
+                    <p>**Menghibur:** Libatkan audiens dengan jawaban lucu, meme yang relevan dengan industri Anda, atau *fun facts* seputar konten website Anda. Menyenangkan membuat pengunjung betah.</p>
+                    <small>Trend Challenges & Comedy Sketches (25% dari Total)</small>
+                </div>
+
+                <div class="card inspirational">
+                    <h4 style="color: #4caf50;">🌟 Kisah Sukses Pelanggan</h4>
+                    <p>**Menginspirasi:** Tampilkan studi kasus singkat atau kutipan inspiratif tentang bagaimana Chatbot AI membantu bisnis lain. Ini membangun kredibilitas dan memotivasi.</p>
+                    <small>Behind The Scenes & Brand Values (15% dari Total)</small>
+                </div>
+                
+                <div class="card community">
+                    <h4 style="color: #9c27b0;">🗣️ Sesi Q&A Interaktif</h4>
+                    <p>**Komunitas:** Fitur Q&A otomatis. Chatbot menyimpan dan menjawab pertanyaan paling umum (FAQ) dari pengunjung, bahkan mengarahkan ke Polling/Survei singkat.</p>
+                    <small>UGC Repost & Customer Spotlight (10% dari Total)</small>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="harga" class="content-section" style="background-color: #e6f7ff;">
+        <div class="container" style="text-align: center;">
+            <h3 style="color: #007bff;">Penawaran Eksklusif & Promosi (20%)</h3>
+
+            <div class="grid-container">
+                
+                <div class="card promotional" style="border-left-color: #f44336;">
+                    <h4 style="color: #f44336;">🎁 Benefit-Focused: Solusi Praktis!</h4>
+                    <p>**Soft Sell:** Lihat bagaimana chatbot kami bekerja di website demo (Product in Use). Fokus pada manfaat: hemat waktu, tingkatkan konversi. *CTA Halus:* "Pelajari lebih lanjut tentang manfaatnya."</p>
+                    <a href="#" class="cta-button" style="background-color: #00bcd4;">Lihat Demo Chatbot</a>
+                </div>
+
+                <div class="card promotional" style="border-left-color: #f44336;">
+                    <h4 style="color: #f44336;">💥 Flash Sale 48 Jam! Diskon Khusus</h4>
+                    <p>**Hard Sell:** Dapatkan diskon 50% untuk 3 bulan pertama penggunaan. Penawaran terbatas! Jangan sampai interaktivitas website Anda tertinggal.</p>
+                    <p style="font-weight: bold; color: red;">KODE DISKON: ADI-SUPER-AI</p>
+                    <a href="#" class="cta-button" style="background-color: #f44336;">BELI SEKARANG! (Link Shopee/Tokped)</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="kontak" class="content-section">
+        <div class="container" style="text-align: center;">
+            <h3 style="color: #007bff;">Hubungi Adicom</h3>
+            <p>Kami siap membantu Anda mengintegrasikan Chatbot AI ini ke website Anda.</p>
+            <p>📞 **Telepon:** 082111476069</p>
+            <p>📧 **Email:** <a href="mailto:adiarray#@gmail.com">adiarray#@gmail.com</a> | **Website:** <a href="http://adiarray.com">adiarray.com</a></p>
+            <p>📍 **Alamat:** Jl.raya Lenteng Agung no 52 Jakarta Selatan, 12640</p>
+            <p>🛍️ **Marketplace:** <a href="https://shopee.co.id/12345">Shopee/12345</a> | <a href="https://tokopedia.com/12346">Tokopedia/12346</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            &copy; 2025 Adicom. All rights reserved. | Chatbot AI - Interaktivitas Website.
+        </div>
+    </footer>
+
+</body>
+</html>
